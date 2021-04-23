@@ -1,21 +1,26 @@
 {
   "name": "doctors-portal-backend",
   "version": "1.0.0",
-  "description": "\"Backend for Doctors Portal Project\"",
+  "description": "A Single page web app with dashboard  where people can pick the date and time and fix an appointment. A doctor can review his appointments and prescribe medicine to a Patient from his dashboard.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "\"Solaiman Shadin\"",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habiba2012/backend-doctorsPortal.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habiba2012/backend-doctorsPortal/issues"
+  },
+  "homepage": "https://github.com/habiba2012/backend-doctorsPortal#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "dot-env": "0.0.1",
-    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongodb": "^3.5.5",
-    "nodemon": "^2.0.2"
+    "mongodb": "^3.6.6",
+    "nodemon": "^2.0.7"
   }
 }
